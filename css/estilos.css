@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+
+}
+html{
+    height: 100%;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  min-height:100%;
+  background-color: #e1e2e1;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300&display=swap');
+*{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.header{
+    background-color: #222;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem 2rem;
+}
+.header__logo img{
+    width: 50px;
+}
+.header__menu ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.header__menu li{
+    margin-right: 1rem;
+}
+.header__menu a{
+    color: #fff;
+}
+.header__menu--activo{
+    background:#4ad295;
+    padding: .10rem .75rem;
+    border-radius: .2rem;
+}
+
+
+h1{
+    text-align: center;
+    background-color:#000;
+    margin: auto;
+    color: whitesmoke;
+}
+.titulo__cocina{
+    text-align: center;
+    font-size: 1.5rem;
+    background-color:aquamarine;
+    color: black;
+}
+.mesas__sub {
+    text-align: center;
+    font-size: 1.5rem;
+    color: black;
+    background: aquamarine;
+}
+.jardin__sub {
+    text-align: center;
+    font-size: 1.5rem;
+    color: black;
+    background: aquamarine;
+}
+
+
+div.galeria{
+    margin: 20px 50px;
+    box-shadow: 0 4px 8px 0 lightskyblue, 0 6px 20px 0 rgba(0 0 0 0 19);
+    display: inline-block;
+    width: 350px;
+   
+   
+}
+div.galeria img{
+border: 1px solid lightcoral;
+width: 100%;
+height: 300px;
+
+}
+div.pie{
+    text-align: center;
+    padding: 10px;
+}
+
+h1.main__h {
+    background-color: black;
+}
+.main__contacto{
+    background-color: wheat;
+}
+.main__h{
+    background-color: cornflowerblue;
+    margin: auto;
+}
+
+.form{
+    background-color: burlywood;
+}
+footer{
+    background-color: #000;
+    width: 100%;
+    color: white; 
+}
+
+
+
+footer{
+    background-color: #222; 
+    margin-top: auto;
+   }
+   .pie-pagina .grupo-1{
+       width: 100%;
+       height:100%;
+       max-width: 1200px;
+       display: grid;
+       grid-template-columns: repeat(3, 1fr);
+       grid-gap: 50px;
+     
+   }
+   .pie-pagina .grupo-1 .box figure{
+     
+   width: 100%;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   }
+   .pie-pagina .grupo-1 .box figure img{
+       width: 100px;
+   }
+   .pie-pagina .grupo-1 .box h2{
+      
+       color: #fff;
+       margin-bottom: 25px;
+       font-size: 20px;
+   
+   }
+   .pie-pagina .grupo-1 .box p{
+       color: #efefef;
+       margin-bottom: 10px;
+   }
+   .pie-pagina .grupo-1 .redsocial a{
+       display: inline-block;
+       text-decoration: none;
+       width: 45px;
+       height: 45px;
+       line-height: 45px;
+       color: #fff;
+       margin-right: 10px;
+       background-color: #0d2033;
+       text-align: center;
+       transition: all 300ms ease;
+   } 
+   .pie-pagina .grupo-1 .redsocial a:hover{
+       color: aqua;
+   }
+   .pie-pagina .grupo-2{
+       background-color: #0a1a2a ;
+       padding: 15px 10px;
+       
+       color: #fff;
+   }
+   .pie-pagina .grupo-2 small{
+       font-size: 15px;
+   }
+   .redes {
+    display: flex;
+    flex-direction: column;
+    font-size: 50px;
+    gap: 150px;
+    text-align: center;
+}
+.fa.fa-youtube {
+    background: red;
+}
+.fa.fa-whatsapp {
+    background: green;
+}
+.fa.fa-facebook {
+    background: dodgerblue;
+}
+.fa.fa-instagram {
+    background: deeppink;
+}
+
+
+@media screen and (max-width: 768px ) {
+    div.galeria {
+        margin: 15px 15px;
+    }
+    
+}
+@media screen and (max-width: 425px ) {
+    .header {
+        padding: .5rem .5rem;
+        flex-direction: column;
+
+    }
+    .main__h {
+        display: flex;
+        flex-direction: column;
+    }
+    .pie-pagina .grupo-1 {
+        grid-gap: 0px;
+    }
+
+
+@media screen and (max-width: 375px) {
+    }
+    div.galeria img {
+        margin: auto;
+    }
+}
+
+
+@media screen and (max-width: 320px ) {
+    .header__menu--activo {
+        padding: 0%;
+    }
+    .main__h {
+        flex-direction: column;
+    }
+    .pie-pagina .grupo-1 .box figure img {
+        display: none;
+    }
+    .pie-pagina .grupo-1 .box h2 {
+        font-size: 25px;
+    }
+    .header__menu a {
+        font-size: .94rem;
+    }
+    div.galeria {
+        margin: auto;
+
+    }
+    div.galeria img {
+        width: 319px;
+
+    }
+}
