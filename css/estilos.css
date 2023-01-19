@@ -194,18 +194,19 @@ footer{
     background: deeppink;
 }
 
-
+            /* MEDIA 768*/
 @media screen and (max-width: 768px ) {
     div.galeria {
         margin: 15px 15px;
     }
-    
-}
+} 
+
+
+            /*MEDIA 425*/
 @media screen and (max-width: 425px ) {
     .header {
         padding: .5rem .5rem;
         flex-direction: column;
-
     }
     .main__h {
         display: flex;
@@ -214,20 +215,27 @@ footer{
     .pie-pagina .grupo-1 {
         grid-gap: 0px;
     }
-
-
-@media screen and (max-width: 375px) {
+    div.galeria {
+        width: 400px;
     }
+}  
+
+
+            /*MEDIA 375*/
+@media screen and (max-width: 375px) {
     div.galeria img {
         margin: auto;
     }
+    div.galeria img {
+        width: 350px;
+    }
 }
 
-
+ 
+            /*MEDIA 320*/
 @media screen and (max-width: 320px ) {
     .header__menu--activo {
-        padding: 0%;
-       
+        padding: 0%;       
     }
     .box h2 {
         margin: 5px;
@@ -246,10 +254,8 @@ footer{
     }
     div.galeria {
         margin: auto;
-
     }
     div.galeria img {
-        width: 319px;
-
+        width: 318px;
     }
 }
