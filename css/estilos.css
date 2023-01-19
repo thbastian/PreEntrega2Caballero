@@ -227,6 +227,10 @@ footer{
 @media screen and (max-width: 320px ) {
     .header__menu--activo {
         padding: 0%;
+       
+    }
+    .box h2 {
+        margin: 5px;
     }
     .main__h {
         flex-direction: column;
