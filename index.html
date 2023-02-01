@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"> 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -14,11 +17,11 @@
   </head>
   <body>
     <header class="header">
-      <div class="header__logo">
+      <div class="header__logo" data-aos="fade-right">
         <a href=""><img src="./img/logo.jfif" alt="" /></a>
       </div>
       <nav>
-        <div class="header__menu">
+        <div class="header__menu" data-aos="fade-left">
           <ul>
             <li>
               <a href="paginas/galeria.html">galeria</a>
@@ -38,6 +41,36 @@
         </div>
       </nav>
     </header>
+<div class="fondomueble">
+    <div class="container">
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/mueble4.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/mueble2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/mueble3.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
     <main class="main">
 <div>
             <h1>NUESTROS PRODUCTOS</h1>
@@ -250,7 +283,7 @@
     </div>
 </div>
 </main>
-<footer class="pie-pagina">
+<footer class="pie-pagina" data-aos="zoom-in-up">
     <div class="grupo-1">
         <div class="box">
             <figure>
@@ -282,5 +315,9 @@
         <small>&copy; 2022 <b> MV </b> - TODOS LOS DERECHOS RESERVADOS.</small>
       </div>
     </footer>
+    <script>
+        AOS.init();
+      </script>
+      <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

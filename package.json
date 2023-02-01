@@ -1,0 +1,21 @@
+{
+  "name": "proyecto1",
+  "version": "1.0.0",
+  "description": "un paquete de scss a css",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss sass/origen.scss css/compilado.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thbastian/PreEntrega2Caballero.git"
+  },
+  "author": "cristian caballero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thbastian/PreEntrega2Caballero/issues"
+  },
+  "homepage": "https://github.com/thbastian/PreEntrega2Caballero#readme"
+}

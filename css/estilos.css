@@ -46,7 +46,16 @@ body{
     padding: .10rem .75rem;
     border-radius: .2rem;
 }
+.fondomueble{
+    background-color: wheat;
+}
 
+.slide{
+    margin-top: 10px;
+}
+.slide img{
+    height: 65vh;
+}
 
 h1{
     text-align: center;
