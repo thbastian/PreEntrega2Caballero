@@ -179,7 +179,7 @@ footer {
 
 /* MEDIA 768*/
 @media screen and (max-width: 768px) {
-  div.galeria {
+  #productos-container {
     margin: 15px 15px;
   }
 }
@@ -197,17 +197,17 @@ footer {
   .pie-pagina .grupo-1 {
     grid-gap: 0px;
   }
-  div.galeria {
+  #productos-container {
     width: 400px;
   }
 }
 
 /*MEDIA 375*/
 @media screen and (max-width: 375px) {
-  div.galeria img {
+  #productos-container img {
     margin: auto;
   }
-  div.galeria img {
+  #productos-container img {
     width: 350px;
   }
 }
@@ -232,10 +232,10 @@ footer {
   .header__menu a {
     font-size: 0.94rem;
   }
-  div.galeria {
+  #productos-container {
     margin: auto;
   }
-  div.galeria img {
+  #productos-container img {
     width: 318px;
   }
 }
